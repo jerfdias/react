@@ -1,10 +1,9 @@
-
+import React from "react";
+import New from './components/new.js';
 
 function App() {
   return (
-    <div className="App">
-ola mundo
-    </div>
+   <New/>
   );
 }
 
