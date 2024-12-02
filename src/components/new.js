@@ -12,11 +12,11 @@ function New() {
     
      <form action='POST' className='formulario'>
       <img src={Logo} className='Logo'id='Logo'/>
-      <FaUser className='iconeUser'id="iconeUser" /><label for="nomeCliente">Nome:</label>
+      <FaUser className='iconeUser'id="iconeUser" /><label for="nomeCliente">Email:</label>
 
     
      <input type="email"id="nomeCliente" placeholder='digite seu email'></input>
-     <FaLock />
+     <FaLock  id='iconeLock'/>
      <label for="senhaCliente">Senha:</label>
      <input type="password" id='senhaCliente' className='senhaCliente' required  placeholder='digite sua senha aqui'></input>
      <button type>Login</button>

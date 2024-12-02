@@ -45,6 +45,7 @@ justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
+    outline: 0;
   
 }
 button{
@@ -58,7 +59,7 @@ button{
 #iconeUser{
 
     width: 20px;
-    
+    display: inline;
     height: 30px;
     
 }
@@ -68,4 +69,7 @@ button{
     width: 20px;
     height: 30px;
 
+}
+input{
+    outline-style: none;
 }
