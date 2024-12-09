@@ -3,6 +3,9 @@ import Logo from '../assets/volks.png';
 import '../components/new.css';
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
+import senha from './senha';
+import cadastro from './cadastro';
+
 function New() {
   return (
 
@@ -19,7 +22,9 @@ function New() {
      <FaLock  id='iconeLock'/>
      <label for="senhaCliente">Senha:</label>
      <input type="password" id='senhaCliente' className='senhaCliente' required  placeholder='digite sua senha aqui'></input>
+   <a href={senha}>esqueci a senha!</a>
      <button type>Login</button>
+     <a href={cadastro}>Cadastre-se</a>
      </form>
     
        
